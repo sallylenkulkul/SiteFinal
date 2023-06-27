@@ -42,14 +42,14 @@ if(isset($_POST["enviar"])) {
     <div class="container">
         <h2>Fale Conosco</h2>
         <form action="duvidas.php" method="post">
-            <label for="nome">Nome</label>
-            <input type="text" class="nome" id="nome" name="nome" placeholder="Seu nome"><br>
+            <label for="nome" >Nome</label>
+            <input type="text" class="nome" id="nome" name="nome" placeholder="Seu nome" required><br>
 
-            <label for="email">Email</label>
-            <input type="email" class="email" id="email" name="email" placeholder="Seu email"><br>
+            <label for="email" >Email</label>
+            <input type="email" class="email" id="email" name="email" placeholder="Seu email" required><br>
 
             <label for="mensagem">Mensagem</label>
-            <textarea id="mensagem" class="msg" name="mensagem" onkeypress="return searchKeyPress(event)" placeholder="Digite sua mensagem"></textarea>
+            <textarea id="mensagem" class="msg" name="mensagem" onkeypress="return searchKeyPress(event)" placeholder="Digite sua mensagem" required></textarea>
             <input type="submit" value="Enviar" name="enviar" class="">
         </form>
         <div class="caixa">

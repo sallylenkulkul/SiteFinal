@@ -194,3 +194,7 @@ input {
 .botao3:hover {
     cursor: pointer;
 }
+.alerta {
+    color: red;
+    font-weight: bold;
+}

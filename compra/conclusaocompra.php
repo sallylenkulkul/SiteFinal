@@ -17,7 +17,7 @@
         <div class="D1">
             <div class="texto1">
                 <br><br>
-                Obrigada por assinar! <br> <br>
+                Obrigado por assinar! <br> <br>
                 <a href="../cadastro&login/login.php"><button class="botao2">Fazer Login</button></a>
 
             </div>

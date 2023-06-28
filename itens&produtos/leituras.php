@@ -54,7 +54,7 @@ if (!isset($_SESSION['login']) || empty($_SESSION['login'])) {
             
     </div>
     <div class="produtos">
-        <div class="itens1">
+        <div class="itens2">
             <div class="item1">
                 <img src="../imagens/livro4.png" width="90%" height="300px">
                 Psicologia e Visão

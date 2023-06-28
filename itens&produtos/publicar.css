@@ -149,7 +149,7 @@ input {
     width: 15%;
     margin-left: 35%;
     height: 35px;
-    font-size: 18px;
+    font-size: 17px;
     border: none;
     font-weight: bold;
     border-radius: 25px;
@@ -158,6 +158,7 @@ input {
 }
 
 .botao2:hover {
-    background-color: #c2d357;
+    background-color: #4d0fc1;
     cursor: pointer;
+    color: white;
 }

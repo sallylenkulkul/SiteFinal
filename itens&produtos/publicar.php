@@ -44,7 +44,7 @@ if (!isset($_SESSION['login']) || empty($_SESSION['login'])) {
                         wrap="hard" required maxlength="125000"></textarea>
                 </div>
             </div>
-            <input type="submit" value="PUBLICAR" name="publicar" class="botao2">
+            <input type="submit" value="Publicar" name="publicar" class="botao2">
         </div>
         </form>
     </div>

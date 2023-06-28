@@ -91,6 +91,16 @@ input:focus {
     width: 90%;
 }
 
+.itens2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5vh;
+    height: 600px;
+    margin-bottom: 5vh;
+    width: 60%;
+}
+
 .item1 {
     display: flex;
     flex-direction: column;
